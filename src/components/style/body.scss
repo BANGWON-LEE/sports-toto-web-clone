@@ -1,0 +1,235 @@
+.bodyTotal {
+    
+    .bodyBack{
+        .bodyImgBack{
+            height: 560px;
+            width: 100%;
+            // transform: translate3d(-3885px, 0px, 0px);
+            // transition: all 0.25s ease 0s;
+
+            .introImg1{
+                width: 100%;
+                height: 100%;
+                background: url('https://www.sportstoto.co.kr/images/main/main_2.jpg') no-repeat 50%;
+            }
+            .introImg2 {
+                width: 100%;
+                height: 100%;
+                background: url('https://www.sportstoto.co.kr/images/bbs/popup/1615452491_mainimg3.png') no-repeat 50%;
+            }
+        }
+    }
+
+    .bodyMiddleBack {
+        width: 1200px;
+        margin: 0 auto;
+        .middleIconBack{
+            width: 100%;
+            margin-top: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            .middleIcon{
+                display: inline-block;
+                padding: 0 30px;
+                width: 11%;
+                
+                .iconLink {
+                    text-decoration: none;
+                    color: black;
+                    
+                    .iconBtn{
+                        margin-bottom: 8px;
+                    }
+
+
+                    .iconText{
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .middleContentBack {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .middleNoticeBack{
+                width: 580px;
+                display: inline-block;
+                border: 1px solid #e1e1e1;
+                width: 50%;
+                margin-left: 10px;
+                margin-right: 10px;
+                float: left;
+
+                .middleNoticeInner{
+                    padding: 35px;
+
+                    .noticeName {
+                        width: 100%;
+                        margin-bottom: 10px;
+
+                        .notice{
+                            display: inline;
+                        }
+
+                        .noticeMore {
+                            float: right;
+                            text-decoration: none;
+                            color: #7f7f7f;
+                            font-size: small;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .contentUl{
+                        width: 100%;
+                        padding: 0px;
+
+                        .contentLi{
+                            list-style: none;
+                            border-bottom: 1px dotted #e1e1e1;
+                            padding: 6px 0;
+
+                            .noticeContent{
+                                text-decoration: none;
+                                color: black !important;
+                                font-weight: bold;
+                                font-size: 14px;
+                            }
+
+                            .noticeDate{
+                                font-size: 12px;
+                                color: #999;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+                
+                
+            }
+            
+            .cleanSportsNotice{
+                text-decoration: none;
+                color: #fff;
+                display: inline-block;
+                background-color: #32327f;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+                    .cleanInner{
+                        padding: 35px 25px;
+                        height: 195px;
+
+                        .claenMainTitle {
+                            font-size: 20px;
+                            font-weight: bold;
+                            display: block;
+
+                            .cleanTitle01{
+                                margin-top: 0px;
+                                margin-bottom: 10px;
+                            }
+
+                            .cleanTitle02{
+                                min-height: 60px;
+                            }
+                        }
+
+                        .cleanContent{
+                            
+                            margin-top: 20px;
+                            
+                            .cleanMore{
+                                display: inline-block;
+                                float: left;
+                                height: 100%;
+                                display: flex;align-items: flex-end;
+                            }
+
+                            .cleanImg{
+                                display: inline-block;
+                                float: right;
+                            }
+                        }
+
+                    
+                }
+            }
+
+            .guideNotice{
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                float: right;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                .guideInner{
+                    padding: 35px 25px;
+                    height: 195px;
+                    background-color: #f2f2f2;
+
+                    .guideTitle{
+                        font-size: 20px;
+                        font-weight: bold;
+                        display: block;
+
+                        .guideTitle01{
+                            margin-top: 0px;
+                            margin-bottom: 10px;
+                        }
+
+                        .guideTitle02{
+                            padding: 10px 0 0 0;
+                            min-height: 60px;
+                            font-size: 14px;
+                            font-weight: normal;
+                            letter-spacing: -.5px;
+                            line-height: 1.6;
+                        }
+                    }
+
+                    .guideContent{
+                        margin-top: 20px;
+
+                        .guideMore{
+                            display: inline-block;
+                            float: left;
+                            height: 100%;
+                            display: flex;
+                        }
+
+                        .guideImg{
+                            display: inline-block;
+                            float: right;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .noticeSliderTotal {
+        width: 1200px;
+        margin: 0 auto;
+        
+        .noticeSliderBack{
+            .slideImgBack{
+                
+                .slideImgLink{
+                    height: 100px;
+                    width: 280px;
+                    margin-left: 10px;
+                    .slideImg{
+                        height: 100px;
+                        width: 280px;
+                    }
+                }
+            }
+        }
+    }
+
+}

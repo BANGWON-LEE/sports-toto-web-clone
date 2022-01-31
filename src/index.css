@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.test-css {
+  position: absolute;
+    bottom: 25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.test-css li {
+  position: relative;
+
+  display: inline-block;
+
+  width: 28px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.test-css li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 10px;
+    height: 20px;
+    padding: 5px;
+    margin: 0px;
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.test-css li button:before {
+  font-size: 2.7rem;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  content: '';
+  border: 1px solid #32327f;
+  background-color: #32327f;
+  border-radius: 50%;
+  text-align: center;
+  opacity: .75;
+  margin: 5px;
+  padding: 0 !important;
+  opacity: 2;
+  
+}
+
+.test-css li.slick-active button:before {
+  opacity: .75;
+  content: '';
+  border: 1px solid #fff;
+  border-radius: 25%;
+  width: 30px;
+  height: 10px;
+  background-color: #fff;
+  margin: 5px 5px 5px -5px;
+  padding: 0 !important;
+  opacity: 2;
+}
