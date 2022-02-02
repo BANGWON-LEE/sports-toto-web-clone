@@ -1,0 +1,141 @@
+.footerTotal{
+
+    .footerBack{
+        width: 1200px;
+        margin: 0 auto;
+
+        .footerTop{
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e1e1e1 ;
+
+            .topList{
+                display: inline-block;
+                width: 50%;
+
+                .totoFootUl{
+                    padding-left: 0px;
+                    margin: 0px;
+
+                    .footLink{
+                        text-decoration: none;
+                        color: black;
+                        display: inline-block;
+                        padding: 0 10px;
+                        
+
+                        .totoFootLi{
+                            font-size: 16px;
+                            font-weight: bolder;
+                            list-style: none;
+                        }
+                    }
+                }
+            }
+
+            .totoSns{
+                display: inline-block;
+                width: 50%;
+                text-align: right;
+
+                .snsIcon {
+
+                    .snsImg{
+                        padding-left: 5px;
+                        width: 30px;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+
+        .footerMiddle{
+            
+            margin-top: 35px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid #e1e1e1;
+
+            .middleFirst{
+                height: 160px;
+                width: 25%;
+                display: inline-block;
+                float: left;
+
+                .middleImgBack1{
+                    vertical-align: middle;
+                    
+                    .middleImg1{
+
+                    }
+                }
+
+                .middleImgBack2{
+                    vertical-align: middle;
+                    
+                    .middleImgSpan{
+
+                        .middleImg2{
+
+                        }
+                    }
+                } 
+            }
+
+            .middleSecond{
+                width: 50%;
+                display: inline-block;
+
+                .footerContent{
+                    margin: 0px;
+                    color: #333;
+                    font-size: 12px;
+                    
+                }
+            }
+
+            .middleThird{
+                height: 160px;
+                width: 25%;
+                display: inline-block;
+                float: right;
+
+                .footMiddleBox{
+
+                    .boxImg{
+                        width: 100%;
+
+                    }
+                }
+            }
+        }
+
+        .footerBottom {
+
+            padding: 10px 0 30px;
+            
+            .bottomBack{
+                display: inline-flex;
+                
+                .bottomFirst{
+                    float: left;
+                    margin-right: 30px;
+                    .bottomImg{
+                        width: 200px;
+                    }
+                }
+
+                .bottomSecond{
+                    float: left;
+                    .bottomContent{
+                        margin-top: 15px;
+                        .contentDetail{
+                            margin: 0px;
+                            color: #676767;
+                            font-size: 12px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
